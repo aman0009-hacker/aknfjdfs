@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Quantico', sans-serif;
+}
+@font-face {
+    font-family:pixel emulator ;
+    src: url(pixel_emulator\ \(1\)/);
+}
+h1,h2{
+    font-family: pixel emulator;
+}
+p.nft_con {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.navbar-nav li:not(:nth-child(4)) {
+    margin-right: 40px;
+}
+ul.navbar-nav li:nth-child(4) a {
+    background-color: #000;
+    color: #fff!important;
+    border-radius: 40px;
+    border: 3px solid #00FFF3;
+    width: 160px;
+    max-width: 180px;
+    display: flex;
+    transition: 0.3s;
+    justify-content: center;
+}
+ul.navbar-nav li:nth-child(4) a:focus {
+    box-shadow: 0px 0px 0px 3px #8dc3a9;
+}
+/* .section-1 {
+    padding: 10px 10px 5px 10px;
+} */
+.section-2 {
+    background-image: url('images/banner.jpg');
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+li.nav-item a {
+    font-size: 18px;
+    font-weight: 400;
+}
+.sec-2_heading h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px #00fff3;
+}
+.sec-2_heading p {
+    font-size: 26px;
+    padding: 0px 70px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.sec-2_content {
+    padding: 0px 130px;
+}
+.sec-2_content p {
+    font-size: 20px;
+    padding: 0px 180px;
+}
+.sec-2_head_con {
+    padding: 100px 160px;
+}
+.sec-2_but button {
+    border: 0px;
+    background-color: #fff;
+    padding: 8px 62px;
+    border-radius: 50px;
+    border: 3px solid #00FFF3;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.2s;
+   
+}
+.sec-2_but button:focus ,.nft_button button:focus{
+    background-color: #0b5ed7;
+    border-color:#0b5ed7;
+    color: #fff;
+   outline: 5px solid #1c6abb;
+}
+.sec-2_but button:hover,.nft_button button:hover{
+    background-color: #fff;
+    border: 3px solid #00FFF3;
+    color:#000;
+ 
+}
+.section-3 {
+    background-image: url(images/bg-image-section-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-3_bor {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 6px;
+    padding: 25px;
+    margin-top: -60px;
+}
+.sec-3_bg {
+    background-color: lightgrey;
+    border-radius: 2px;
+    padding: 30px 50px;
+    text-align: center;
+}
+.sec-3_bg img{
+    width:82%;
+}
+.sec-3_bg p {
+    color: #000;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.nft_se {
+    max-width: 1000px;
+    margin: 60px auto;
+}
+.sec-3_tit h1,.team_header h1 ,.road_det_header h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px #00fff3;
+    color:#000119;
+}
+.roadmap_header h1 {
+    color: #fff;
+    -webkit-text-stroke: 1px #00fff3;
+}
+.nft_title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.nft_title h1 {
+    color: #00fff3;
+    text-transform: uppercase;
+}
+.nft_first_img{
+    width:100%;
+}
+.nft_first_block {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+.nft_first_block h5 {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.et{
+    margin-left:7px;
+}
+.nft_con {
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.twitter_im {
+    display: flex;
+    justify-content: space-between;
+}
+.nft_button {
+    text-align: center;
+    margin-top: 50px;
+}
+.nft_button button {
+    background-color: #ffff;
+    padding: 8px 160px;
+    border-radius: 40px;
+    border: 3px solid #00FFF3;
+    font-weight: 700;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.team {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 30px 30px 30px 50px;
+}
+.team_header {
+    text-align: center;
+}
+
+.members_car {
+    margin-top: 35px;
+   
+}
+.see_m {
+    display: block;
+    margin: 0px auto;
+    border-radius: 50px;
+    padding: 8px 150px;
+    background: #000119;
+    color: #fff;
+    font-size: 20px;
+   border: 3px solid #00FFF3;
+    transition: 0.3s;
+}
+.see_m:focus,.seal_mint:focus{
+    outline:4px solid #98C1FE!important;
+}
+.see_m:hover,.seal_mint:hover{
+    background: #000119;
+    color: #fff; 
+    border: 3px solid #00FFF3;
+}
+.member_first_block {
+    background-color: #f2f2f3;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid darkgray;
+    margin-right: 25px;
+}
+.member_first_img{
+    width:100%;
+}
+.member_ti_ic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.member_ti h4 {
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 8px;
+}
+.member_ti h4::after {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    width: 90%;
+    background-color: #00FFF3;
+    height: 5px;
+    left: 0px;
+}
+.member_p {
+    margin-top: 15px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+.car_flex {
+   margin-bottom: 20px;
+}
+.car_flex .col {
+    flex: 0 0 33%;
+}
+.member_class_add{
+    background-color: #000!important;
+}
+.roadmap {
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+}
+.roadmap_header h1,.ques_hea h1{
+    color:#fff;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #00FFF3;
+
+}
+.roadmap_header img{
+    width:100%;
+}
+.section-4 {
+    margin-top: 60px;
+}
+.road_det_header {
+    text-align: center;
+}
+
+.road_box_1 {
+   background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+.road_boxes {
+    margin-top: 35px;
+}
+.road_content h5 {
+    color: #86fafe;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+.road_content p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+.road_box_1:not(:nth-child(1)){
+    margin-top:20px;
+}
+.road_content div#accordionExample {
+    margin-top: 40px;
+}
+.accordion-header{
+    font-family: 'Quantico', sans-serif;
+}
+.road_content .accordion-button:not(.collapsed) {
+    background-color: lightgrey!important;
+    color: #000!important;
+    font-weight: 700;
+    font-size: 19px;
+    box-shadow: none;
+    border-radius: 10px;
+}
+.accordion-body {
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+}
+.road_content .accordion-button{
+    background-color: lightgrey;
+}
+.road_content .accordion-item {
+    border: none;
+    background-color: lightgrey!important;
+    border-radius: 10px;
+}
+.road_content .accordion-body div:not(:nth-child(1)){
+    margin-top:30px;
+}
+.road_content .accordion-item:not(:nth-child(1)){
+    margin-top:30px;
+}
+.road_content .accordion-item:first-of-type .accordion-button{
+    border-radius: 10px!important;
+}
+button.accordion-button.collapsed {
+    border-top-right-radius: 10px!important;
+    border-top-left-radius: 10px!important;
+}
+.section-5 {
+    background-image: url('images/bg-footer-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding: 60px 0px 40px 0px;
+}
+.ques_hea {
+    text-align: center;
+}
+.ques_acc {
+    margin-top: 60px;
+}
+.accordion-button span {
+    color: #000!important;
+    font-weight: 700;
+    box-shadow: none;
+    font-size: 18px;
+}
+.ques_acc .accordion-button:not(.collapsed) {
+    color: #000!important;
+    background-color: #f3f3f3;
+    font-weight: 700;
+    box-shadow: none;
+    border-top-right-radius: 10px!important;
+    border-top-left-radius: 10px!important;
+}
+.accordion-button:focus {
+  
+    border-color: transparent!important;
+    box-shadow: none!important;
+   
+}
+.ques_acc .accordion-body {
+    background-color: #f3f3f3;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.ques_acc .accordion-item {
+    background: none;
+    border: none;
+}
+.ques_acc .accordion-item:not(:nth-child(1)){
+margin-top:20px;
+}
+.ques_header {
+    max-width: 1000px;
+    margin: auto;
+}
+.seal_team {
+    background-color: #fff;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 39px 0px skyblue;
+}
+.seal_header{
+    padding:55px;
+}
+.seal_header h1 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color:#000119;
+    -webkit-text-stroke:1px #00FFF3;
+}
+.seal_header .seal_p {
+    font-weight: 600;
+    font-size: 24px;
+}
+.seal_se_p
+{
+font-size: 20px;
+}
+.seal_img img {
+    width: 100%;
+}
+.seal_mint {
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    padding: 14px 75px 14px 75px;
+    border: 3px solid #00FFF3;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.copy_pol {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background-color: black;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 60px!important;
+}
+.slick-dots li {
+background-color: transparent!important;
+}
+@media screen and (min-width:250px) and (max-width:768px){
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+
+.nft_button {
+  
+    margin-top: 30px;
+}
+
+.sec-2_head_con {
+    padding: 20px 0px;
+}
+.sec-2_heading h1 {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.sec-2_heading p {
+    padding: 0px 40px;
+    margin-bottom: -5px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+.sec-2_content{
+    padding:0px;
+}
+.sec-2_content p {
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 20px;
+    padding: 0 70px;
+    line-height: 18px;
+}
+.sec-2_but button {
+    padding: 0px 20px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+p.nft_con,.member_p,.road_content p,.road_content .accordion .accordion-body span,.ques_acc .accordion-body,.seal_se_p
+{
+    font-size:13px;
+}
+.road_content h5,.road_content .accordion .accordion-header button,.accordion-button span,.seal_header .seal_p
+{
+    font-size: 15px;
+}
+.sec-3_bor {
+    margin-top: 0px;
+    padding: 14px;
+}
+.sec-3_tit h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.sec-3_bg p {
+    font-size: 13px;
+    font-weight: 600;
+
+}
+.sec-3_bg img{
+    width:100%;
+}
+.nft_button button,.see_m,.seal_mint{
+    padding: 10px 0;
+    width:100%;
+    font-size:15px;
+}
+.sec-3_bg{
+    padding:10px;
+}
+.nft_se {
+    margin: 40px auto;
+}
+.margin_nft:not(:nth-child(1)){
+margin-top:30px;
+}
+.team {
+padding: 14px;
+margin-top: 50px;
+}
+.sec-3_tit h1, .team_header h1, .road_det_header h1
+{
+    margin-bottom: 0px;
+}
+.member_p
+{
+    margin:0px;
+}
+.member_ti_ic {
+    margin-top: 15px;
+}
+.members_car
+{
+    margin-top:10px;
+}
+.roadmap {
+    margin: 40px 0px 0px 0px;
+}
+.section-4,.ques_acc {
+    margin-top: 30px;
+}
+.road_boxes
+{
+    margin-top:20px;
+}
+.seal_team {
+margin-top: 60px;
+    
+}
+.road_content .accordion .accordion-body
+{
+    padding-top:0px;
+}
+.road_box_1 {
+   padding: 5px;
+}
+.section-5 {
+    padding: 30px 0px 40px 0px;
+}
+.roadmap_header img {
+    margin: 20px 0px 20px 0px;
+}
+.seal_dis{
+    display:inline-flex;
+}
+.seal_img{
+    order:1;
+}
+.seal_header{
+    order:2;
+    padding: 18px 30px;
+}
+.copy_pol{
+    display: block;
+}
+.priv{
+    display: none;
+}
+.seal_img img {
+    width: 100%;
+    margin: auto;
+   display: block;
+}
+.seal_team {
+      padding-bottom: 20px;
+  
+}
+.section-5 {
+    padding-bottom: 10px;
+}
+.copyright {
+    margin: 45px 0px 0px 0px;
+}
+.copyright p {
+    font-size: 18px;
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .margin_nft{
+        margin-top:30px;
+    }
+    .seals_img{
+        width:100%
+    }
+}
+}
+@media screen and (min-width:250px) and (max-width:767px){
+    h1{
+        font-size: 18px !important;
+    }
+    .seal_header h1 {
+        margin-bottom:10px !important;;
+    }
+    .section-2 {
+        background-size: 100% 100%;
+       }
+    .member_first_block{
+        margin-right:0px;
+    }
+}
+@media screen and (min-width:768px){
+    .sec-2_content {
+        display: block;
+        margin-top: 40px;
+        padding:0px;
+    }
+    .margin_nft{
+margin-top:30px;
+}
+}
+@media screen and (min-width:768px) and (max-width:921px){
+   
+    .sec-2_heading p,.sec-2_content p{
+    padding:0px 65px;
+}
+}
+@media screen and (min-width:250px) and (max-width:921px){
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 li {
+        margin-right: 0px;
+        margin-bottom: 15px;
+       }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 li:nth-child(4) a {
+        padding: 6px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    div#navbarSupportedContent ul li:not(:nth-child(4)) {
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1080px)
+{
+.section-2 {
+        background-size: 100% 100%;
+    
+    }
+}
+@media screen and (min-width:769px) and (max-width:1020px){
+   
+    .sec-2_head_con {
+        padding: 30px;
+    }
+    .team {
+       
+        padding: 30px 40px;
+    }
+    .seal_dis{
+    display:inline-flex;
+}
+.seal_img{
+    order:1;
+}
+.seal_header{
+    order:2;
+    padding: 18px 30px;
+}
+}
+@media screen and (min-width:769px) and (max-width:1020px){
+    .sec-2_head_con {
+        padding: 50px 0px 100px 0px;
+    }
+}
+@media screen and (min-width:1021px) and (max-width:1300px){
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 li {
+        margin-right: 30px;
+    }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 li:nth-child(4) a {
+      padding: 6px 20px;
+      }
+}
+@media screen and (min-width:992px) and (max-width:1021px){
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 li:nth-child(4) a {
+       padding: 6px 22px;
+    }
+ ul.navbar-nav.me-auto.mb-2.mb-lg-0 li {
+        margin-right: 28px;
+    }
+}
+@media screen and (min-width:1021px) and (max-width:1199px){
+    .sec-2_head_con{
+    padding: 50px 50px 100px 50px;
+    }
+}
